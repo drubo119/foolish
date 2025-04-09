@@ -29,6 +29,7 @@ body {
 }
 
 .glass-box form {
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -119,4 +120,28 @@ body {
 
 .social-login .google:hover {
     background-color: rgba(219, 68, 55, 0.5);
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-container i {
+    color: rgba(255, 255, 255, 0.8);
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.input-container input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    font-family: inherit;
 }
